@@ -29,10 +29,3 @@ next.addEventListener("click", () => {
   clearTimeout(timer);
   updateGallery();
 });
-
-img.addEventListener("click", () => {
-  console.log("image clicked");
-  if (img.style.animationPlayState === "paused") {
-    img.style.animationPlayState = "running";
-  }
-});
